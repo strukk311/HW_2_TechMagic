@@ -1,0 +1,233 @@
+/*
+@font-face {
+    font-family : "Roboto-regular";
+    font-display : swap;
+    src : url("../assets/fonts/Roboto-Regular.woff") format("woff"),
+    url("../assets/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Roboto-Regular.ttf")format("ttf"),
+    url("../assets/fonts/Roboto-Regular.eot")format("eot");
+}
+    
+@font-face {
+    font-family : "Special-Elite";
+    font-display : swap;
+    src : url("../assets/fonts/SpecialElite-Regular.woff") format("woff"),
+     url("../fonts/SpecialElite-Regular.woff2") format("woff2"),
+     url("../assets/fonts/SpecialElite-Regular.ttf")format("ttf"),
+     url("../assets/fonts/SpecialElite-Regular.eot")format("eot");
+}
+
+  /*-----Specification-----*/
+  
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: rgb(251, 255, 0);
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+    
+  button {
+    cursor: pointer;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto-regular", serif;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  p {
+    font-family: "Roboto-regular";
+  }
+  body {
+	font-family: "Roboto-regular", sans-serif;
+	font-size: 18px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span{
+	box-sizing: border-box;
+    border-width:0px;
+    border:none;
+
+}
+
+h1{
+    font-family : "Special-Elite";
+    font-size: 20px;
+    margin: 50px 0;
+    text-transform: uppercase;
+    color: #f1f256
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    margin: 10px 0;
+    color:rgb(0, 0, 0);
+    border-bottom:1px solid #000000;
+
+}
+input::placeholder {
+    color: rgb(117, 117, 117);
+  }
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom:1px solid #018cb7;
+}
+
+input[type="text"]:focus:hover {
+    outline: none;
+    border-bottom:1px solid #018cb7;
+}
+
+.container {
+    width: 760px;
+    margin: 0 auto 
+}
+
+header {
+    margin: 0 auto;
+    background: #2f2f43 url(../images/sw3.jpg) no-repeat center top / cover;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: #fff;
+    text-align: center;
+    width: 1500px;
+    height: 700px;
+}
+
+section {
+    width: 100%;
+}
+.list__item {
+    width: 608px;
+    padding: 12px 8px 12px 40px;
+    color: blanchedalmond;
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.2s;
+    user-select: none;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.list__item_info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+.list__item_info div {
+    margin-bottom: 8px;
+}
+
+.list__item_img {
+    height: 100px;
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: 670px 0px 0px 0px;
+}
+
+.menu-item {
+    margin-right: 15px;
+}
+
+.menu-item__btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0px 2px 4px #000;
+}
+
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search__input {
+    width: 80%;
+    margin: 60px 0px 0px 0px;
+}
+.search__button {
+    height: 26px;
+    border: none;
+    width: 15%;
+    text-align: center;
+    background-color: #000000;
+    color:#fff;
+    border-radius: 3px;
+    margin: 60px 0px 0px 0px;
+}
+.search__button:hover {
+    background-color: #332f24;
+    color:#fff;
+}
+.justify-content-start {
+    justify-content: flex-start;
+}
